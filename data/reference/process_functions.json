@@ -1,0 +1,22 @@
+[
+  {"id":"COL-PLM-001","processGroupId":"COL-PLM","domainId":"COL","industryId":"financial-services","name":"Lead capture & qualification","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":1},
+  {"id":"COL-PLM-002","processGroupId":"COL-PLM","domainId":"COL","industryId":"financial-services","name":"Prospect relationship management","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":2},
+  {"id":"COL-PLM-003","processGroupId":"COL-PLM","domainId":"COL","industryId":"financial-services","name":"Campaign response management","archetypes":["bank","nbl","insurer","wealth","payments"],"sortOrder":3},
+  {"id":"COL-PLM-004","processGroupId":"COL-PLM","domainId":"COL","industryId":"financial-services","name":"Referral management","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":4},
+  {"id":"COL-CDD-001","processGroupId":"COL-CDD","domainId":"COL","industryId":"financial-services","name":"KYC / AML identity verification","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":1},
+  {"id":"COL-CDD-002","processGroupId":"COL-CDD","domainId":"COL","industryId":"financial-services","name":"Beneficial ownership determination","archetypes":["bank","nbl","wealth","payments","eca"],"sortOrder":2},
+  {"id":"COL-CDD-003","processGroupId":"COL-CDD","domainId":"COL","industryId":"financial-services","name":"PEP & sanctions screening","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":3},
+  {"id":"COL-CDD-004","processGroupId":"COL-CDD","domainId":"COL","industryId":"financial-services","name":"Enhanced due diligence management","archetypes":["bank","nbl","wealth","payments","eca"],"sortOrder":4},
+  {"id":"COL-CDD-005","processGroupId":"COL-CDD","domainId":"COL","industryId":"financial-services","name":"Ongoing CDD monitoring","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":5},
+  {"id":"COL-CDD-006","processGroupId":"COL-CDD","domainId":"COL","industryId":"financial-services","name":"Client risk rating & classification","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":6},
+  {"id":"COL-OBD-001","processGroupId":"COL-OBD","domainId":"COL","industryId":"financial-services","name":"Client needs assessment","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":1},
+  {"id":"COL-OBD-002","processGroupId":"COL-OBD","domainId":"COL","industryId":"financial-services","name":"Account opening & agreement execution","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":2},
+  {"id":"COL-OBD-003","processGroupId":"COL-OBD","domainId":"COL","industryId":"financial-services","name":"Welcome & activation management","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":3},
+  {"id":"COL-OBD-004","processGroupId":"COL-OBD","domainId":"COL","industryId":"financial-services","name":"Onboarding document management","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":4},
+  {"id":"COL-CRM-001","processGroupId":"COL-CRM","domainId":"COL","industryId":"financial-services","name":"Ongoing needs & portfolio review","archetypes":["bank","nbl","insurer","wealth","eca"],"sortOrder":1},
+  {"id":"COL-CRM-002","processGroupId":"COL-CRM","domainId":"COL","industryId":"financial-services","name":"Client satisfaction & complaints management","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":2},
+  {"id":"COL-CRM-003","processGroupId":"COL-CRM","domainId":"COL","industryId":"financial-services","name":"Client retention & upsell management","archetypes":["bank","nbl","insurer","wealth","payments"],"sortOrder":3},
+  {"id":"COL-OFF-001","processGroupId":"COL-OFF","domainId":"COL","industryId":"financial-services","name":"Client offboarding & account closure","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":1},
+  {"id":"COL-OFF-002","processGroupId":"COL-OFF","domainId":"COL","industryId":"financial-services","name":"Data archival & retention management","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":2},
+  {"id":"COL-OFF-003","processGroupId":"COL-OFF","domainId":"COL","industryId":"financial-services","name":"Client data archival & destruction","archetypes":["bank","nbl","insurer","wealth","payments","eca"],"sortOrder":3}
+]

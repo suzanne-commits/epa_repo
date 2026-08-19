@@ -1,0 +1,24 @@
+{
+  "clientId": "macquarie-dfg",
+  "clientName": "DFG Archetype — Macquarie",
+  "baseIndustryId": "financial-services",
+  "archetypeFilter": ["bank","wealth"],
+  "themeOverride": {
+    "primaryColor": "#C8102E",
+    "logoText": "DFG",
+    "logoSubtext": "Macquarie Archetype"
+  },
+  "domainOverrides": [
+    {"action":"rename","domainId":"COL","name":"Client & Counterparty Onboarding"}
+  ],
+  "processGroupOverrides": [
+    {"action":"rename","processGroupId":"COL-CDD","name":"Counterparty Due Diligence & KYC"}
+  ],
+  "l2Overrides": [
+    {"action":"rename","l2Id":"COL-CDD-001","name":"Counterparty KYC & AML identity verification"},
+    {"action":"rename","l2Id":"COL-CDD-002","name":"Counterparty beneficial ownership & UBO determination"}
+  ],
+  "additionalRegMappings": [],
+  "hiddenDomains": [],
+  "hiddenE2Es": []
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "FS-PL-MORTGAGES",
+    "industryId": "financial-services",
+    "name": "Mortgages & Home Lending",
+    "shortName": "Mortgages",
+    "icon": "🏠",
+    "tag": "Mortgage Lending",
+    "color": "#0066CC",
+    "description": "Residential and commercial mortgage lending — prime, specialist, investment, SMSF, and construction lending. Largest balance sheet item for most Australian banks.",
+    "archetypes": ["bank", "nbl"],
+    "sortOrder": 1
+  },
+  {
+    "id": "FS-PL-RETAIL-BANK",
+    "industryId": "financial-services",
+    "name": "Retail Banking & Deposits",
+    "shortName": "Retail Banking",
+    "icon": "🏦",
+    "tag": "Consumer Banking",
+    "color": "#276749",
+    "description": "Consumer deposit accounts, everyday banking, debit cards, and personal overdrafts. The foundation of the retail banking franchise.",
+    "archetypes": ["bank"],
+    "sortOrder": 2
+  },
+  {
+    "id": "FS-PL-BUS-LENDING",
+    "industryId": "financial-services",
+    "name": "Business & Commercial Lending",
+    "shortName": "Business Lending",
+    "icon": "🏢",
+    "tag": "Commercial Credit",
+    "color": "#0A2540",
+    "description": "SME and commercial lending — term loans, equipment finance, trade finance, and working capital. Broker and direct origination.",
+    "archetypes": ["bank", "nbl"],
+    "sortOrder": 3
+  },
+  {
+    "id": "FS-PL-PAYMENTS",
+    "industryId": "financial-services",
+    "name": "Payments & Transaction Banking",
+    "shortName": "Payments",
+    "icon": "💳",
+    "tag": "Transaction Services",
+    "color": "#553C9A",
+    "description": "Consumer and business payments — cards, NPP, SWIFT, direct entry, PayID, and merchant acquiring.",
+    "archetypes": ["bank", "payments"],
+    "sortOrder": 4
+  },
+  {
+    "id": "FS-PL-WEALTH",
+    "industryId": "financial-services",
+    "name": "Wealth & Investment",
+    "shortName": "Wealth",
+    "icon": "📈",
+    "tag": "Wealth Management",
+    "color": "#B45309",
+    "description": "Financial advice, portfolio management, superannuation, and investment products. FASEA best interests duty and MiFID II suitability obligations.",
+    "archetypes": ["bank", "wealth"],
+    "sortOrder": 5
+  },
+  {
+    "id": "FS-PL-INSURANCE",
+    "industryId": "financial-services",
+    "name": "Insurance",
+    "shortName": "Insurance",
+    "icon": "🛡️",
+    "tag": "Insurance Products",
+    "color": "#163A5F",
+    "description": "General, life, and health insurance underwriting, policy administration, and claims management.",
+    "archetypes": ["insurer"],
+    "sortOrder": 6
+  }
+]

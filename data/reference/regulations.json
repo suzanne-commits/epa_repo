@@ -1,0 +1,340 @@
+[
+  {
+    "id": "REG-FAR-AU",
+    "industryIds": [
+      "financial-services"
+    ],
+    "name": "Financial Accountability Regime (FAR) \u2014 AU",
+    "shortName": "FAR",
+    "ref": "Financial Accountability Regime Act 2023 (Cth); FAR (Minister) Rules 2024; APRA/ASIC joint administration",
+    "type": "governance",
+    "jurisdictions": [
+      "AU"
+    ],
+    "regulators": [
+      "APRA",
+      "ASIC"
+    ],
+    "requirements": "Replaces BEAR from 15 March 2024 for ADIs and NOHCs; extended to insurers, licensed NOHCs, and RSE licensees from 15 March 2025. Obligations: (1) register all Accountable Persons with APRA/ASIC; (2) maintain accountability statements mapping each Accountable Person to their key functions; (3) take reasonable steps to ensure Accountable Persons act with due skill, care, and diligence; act honestly and with integrity; deal with APRA/ASIC openly and cooperatively; (4) deferred remuneration: minimum 40% deferred for 4 years for Accountable Persons; (5) notify APRA/ASIC of material breaches within 30 days; (6) maintain accountability maps showing responsibilities for each key function across the entity. FAR extends accountability beyond prudential standing (BEAR) to include conduct obligations \u2014 ASIC jointly administers with APRA.",
+    "penalty": "Civil penalties: up to AUD $18.78M per contravention for body corporates; up to AUD $1.565M for individuals. Disqualification of Accountable Persons from holding accountable roles. Deferred remuneration adjustment (malus/clawback) required where breach established. APRA may impose conditions on authority. Public enforcement action by APRA or ASIC.",
+    "effectiveDate": "2024-03-15",
+    "lastUpdated": "2025-03-15",
+    "status": "current",
+    "tags": [
+      "far",
+      "accountability",
+      "accountable-persons",
+      "governance",
+      "apra",
+      "asic",
+      "deferred-remuneration"
+    ],
+    "notes": "Supersedes BEAR (Banking Executive Accountability Regime). BEAR applied to ADIs only from 2018. FAR extends to insurers and superannuation from 15 March 2025. Joint administration by APRA (prudential) and ASIC (conduct) is a key structural difference from BEAR."
+  },
+  {
+    "id": "REG-BEAR-AU-SUPERSEDED",
+    "industryIds": [
+      "financial-services"
+    ],
+    "name": "Banking Executive Accountability Regime (BEAR) \u2014 superseded",
+    "shortName": "BEAR (superseded)",
+    "ref": "Banking Act 1959 (Cth) Pt IIAA; superseded by FAR 15 March 2024",
+    "type": "governance",
+    "jurisdictions": [
+      "AU"
+    ],
+    "regulators": [
+      "APRA"
+    ],
+    "requirements": "SUPERSEDED by FAR effective 15 March 2024. Historical: required ADIs to register Accountable Persons; take reasonable steps to ensure compliance with accountability obligations; defer minimum 40% of variable remuneration for 4 years; notify APRA of contraventions within 30 days. Did not apply to insurers or superannuation. APRA-only administration (no ASIC conduct component).",
+    "penalty": "SUPERSEDED. Previously: civil penalties up to AUD $1.05M per contravention. FAR penalties are materially higher.",
+    "effectiveDate": "2018-07-01",
+    "lastUpdated": "2024-03-15",
+    "status": "superseded",
+    "tags": [
+      "bear",
+      "accountability",
+      "superseded",
+      "apra",
+      "adi"
+    ],
+    "notes": "Superseded by FAR from 15 March 2024. ADIs transitioned from BEAR to FAR obligations on that date using Transitional Rules."
+  },
+  {
+    "id": "REG-FATF-AML",
+    "industryIds": [
+      "financial-services",
+      "cgm"
+    ],
+    "name": "AML/CFT \u2014 FATF 40 Recommendations",
+    "shortName": "FATF AML/CFT",
+    "ref": "FATF (2012, updated 2023)",
+    "type": "aml",
+    "jurisdictions": [
+      "AU",
+      "UK",
+      "EU",
+      "US",
+      "INTL"
+    ],
+    "regulators": [
+      "AUSTRAC",
+      "FinCEN",
+      "FINTRAC",
+      "JMLSG",
+      "EBA"
+    ],
+    "requirements": "Risk-based AML/CTF programme covering customer due diligence (CDD), enhanced due diligence (EDD) for high-risk clients, ongoing monitoring, suspicious matter reporting, threshold transaction reporting, record-keeping for 7 years, staff training, and independent audit. Risk assessment documented and reviewed annually.",
+    "penalty": "Civil penalties; criminal prosecution for serious or repeated failures; licence revocation; public enforcement action. AUSTRAC AU: civil penalties up to AUD $22.2M per contravention (AML/CTF Act reformed 31 March 2026).",
+    "effectiveDate": "2012-02-16",
+    "lastUpdated": "2023-10-01",
+    "status": "current",
+    "tags": [
+      "aml",
+      "cdd",
+      "transaction-monitoring",
+      "reporting",
+      "fatf"
+    ]
+  },
+  {
+    "id": "REG-MIFID2-POG",
+    "industryIds": [
+      "financial-services"
+    ],
+    "name": "MiFID II \u2014 Product Governance (POG)",
+    "shortName": "MiFID II POG",
+    "ref": "MiFID II Art.16(3); MiFID II Delegated Directive 2017/593; ESMA Guidelines 2017",
+    "type": "conduct",
+    "jurisdictions": [
+      "EU",
+      "UK"
+    ],
+    "regulators": [
+      "ESMA",
+      "NCAs",
+      "FCA"
+    ],
+    "requirements": "Manufacturers must define a target market for each product and ensure it is distributed within that market. Annual product review against target market performance. Distributors must implement product governance arrangements and only recommend products appropriate for the client. Information sharing between manufacturer and distributor.",
+    "penalty": "NCA enforcement; public censure; civil penalties up to EUR 5M or 10% of annual turnover for legal persons; temporary product bans.",
+    "effectiveDate": "2018-01-03",
+    "lastUpdated": "2021-06-01",
+    "status": "current",
+    "tags": [
+      "product-governance",
+      "target-market",
+      "distribution",
+      "mifid2"
+    ]
+  },
+  {
+    "id": "REG-DDO-AU",
+    "industryIds": [
+      "financial-services"
+    ],
+    "name": "Design & Distribution Obligations (DDO) \u2014 AU",
+    "shortName": "DDO",
+    "ref": "Corporations Act 2001 Pt 7.8A (ss994A\u2013994L); ASIC RG 274",
+    "type": "conduct",
+    "jurisdictions": [
+      "AU"
+    ],
+    "regulators": [
+      "ASIC"
+    ],
+    "requirements": "Target market determinations (TMDs) required for all retail financial products before distribution. Distribution conditions must reflect the TMD. Significant dealings outside the TMD reported to issuer within 10 business days. Product review triggers documented. Issuers must request information from distributors about significant dealings.",
+    "penalty": "Civil penalties up to AUD $1.565M per contravention (individual); AUD $15.65M or 3\u00d7 benefit (body corporate); ASIC stop order; product recall.",
+    "effectiveDate": "2021-10-05",
+    "lastUpdated": "2023-01-01",
+    "status": "current",
+    "tags": [
+      "ddo",
+      "target-market",
+      "distribution",
+      "retail",
+      "asic"
+    ]
+  },
+  {
+    "id": "REG-APRA-CPS220",
+    "industryIds": [
+      "financial-services"
+    ],
+    "name": "APRA CPS 220 \u2014 Risk Management",
+    "shortName": "APRA CPS 220",
+    "ref": "APRA CPS 220 (July 2023); CPG 220",
+    "type": "prudential",
+    "jurisdictions": [
+      "AU"
+    ],
+    "regulators": [
+      "APRA"
+    ],
+    "requirements": "Board-approved risk management framework suited to size, business mix, and complexity. Risk appetite statement. Three lines of defence. Annual Risk Management Declaration signed by CEO and Board Chair. Independent risk function. Risk reporting to Board at least quarterly. ICAAP. Stress testing. Proportionality principle: controls must be commensurate with risk profile.",
+    "penalty": "APRA Pillar 2 capital add-on; formal direction; licence conditions; supervisory intensification; public enforcement action for serious failures.",
+    "effectiveDate": "2023-07-01",
+    "lastUpdated": "2023-07-01",
+    "status": "current",
+    "tags": [
+      "prudential",
+      "risk-management",
+      "icaap",
+      "apra",
+      "three-lines"
+    ]
+  },
+  {
+    "id": "REG-APRA-CPS230",
+    "industryIds": [
+      "financial-services"
+    ],
+    "name": "APRA CPS 230 \u2014 Operational Risk Management",
+    "shortName": "APRA CPS 230",
+    "ref": "APRA CPS 230 (effective July 2025); CPG 230",
+    "type": "operational",
+    "jurisdictions": [
+      "AU"
+    ],
+    "regulators": [
+      "APRA"
+    ],
+    "requirements": "Critical operations identification with tolerance levels for disruption. Business continuity plans tested annually. Material service provider register with contractual requirements including exit strategy, audit rights, and incident notification. Fourth-party risk assessment. APRA notification within 72 hours of material operational incidents. AI systems supporting critical operations must have credible human fallback processes.",
+    "penalty": "APRA direction; capital add-on; conditions on authority; public supervisory disclosure for persistent non-compliance.",
+    "effectiveDate": "2025-07-01",
+    "lastUpdated": "2025-07-01",
+    "status": "current",
+    "tags": [
+      "operational-risk",
+      "bcp",
+      "outsourcing",
+      "critical-operations",
+      "apra"
+    ]
+  },
+  {
+    "id": "REG-DORA",
+    "industryIds": [
+      "financial-services"
+    ],
+    "name": "DORA \u2014 Digital Operational Resilience Act (EU)",
+    "shortName": "DORA",
+    "ref": "Regulation (EU) 2022/2554; RTS on incident reporting; RTS on ICT third-party risk",
+    "type": "operational",
+    "jurisdictions": [
+      "EU"
+    ],
+    "regulators": [
+      "ESAs",
+      "EBA",
+      "ESMA",
+      "EIOPA"
+    ],
+    "requirements": "ICT risk management framework. Major ICT incident classification within 4 hours; initial report to competent authority within 24 hours; intermediate report within 72 hours; final report within 1 month. Threat-led penetration testing (TLPT) for significant entities every 3 years. ICT third-party provider register; contractual provisions for critical ICT providers; concentration risk assessed.",
+    "penalty": "NCA enforcement; up to 2% of total annual worldwide turnover for legal persons; up to EUR 1M for natural persons; public disclosure.",
+    "effectiveDate": "2025-01-17",
+    "lastUpdated": "2025-01-17",
+    "status": "current",
+    "tags": [
+      "dora",
+      "ict-risk",
+      "incident-reporting",
+      "operational-resilience",
+      "eu"
+    ]
+  },
+  {
+    "id": "REG-GDPR",
+    "industryIds": [
+      "financial-services",
+      "cgm",
+      "telco",
+      "nbn"
+    ],
+    "name": "GDPR / Privacy Act \u2014 Data Protection",
+    "shortName": "GDPR / Privacy Act",
+    "ref": "GDPR (EU) 2016/679; UK GDPR; Privacy Act 1988 (Cth) APPs",
+    "type": "data",
+    "jurisdictions": [
+      "EU",
+      "UK",
+      "AU"
+    ],
+    "regulators": [
+      "National DPAs",
+      "OAIC"
+    ],
+    "requirements": "Lawful basis for all personal data processing. Data minimisation and purpose limitation. Data subject rights (access, correction, erasure, portability). Privacy by design and default. Data Protection Impact Assessments (DPIAs) for high-risk processing. DPO appointment where required. Data breach notification: supervisory authority within 72 hours; individuals where high risk. Cross-border transfer safeguards.",
+    "penalty": "GDPR: up to 4% of global annual turnover or EUR 20M (whichever higher). OAIC AU: up to AUD $50M for serious or repeated breaches.",
+    "effectiveDate": "2018-05-25",
+    "lastUpdated": "2023-01-01",
+    "status": "current",
+    "tags": [
+      "privacy",
+      "gdpr",
+      "data-protection",
+      "breach-notification",
+      "oaic"
+    ]
+  },
+  {
+    "id": "REG-IFRS9",
+    "industryIds": [
+      "financial-services"
+    ],
+    "name": "IFRS 9 \u2014 Financial Instruments",
+    "shortName": "IFRS 9",
+    "ref": "IFRS 9 (IASB 2014); AASB 9 (AU); APRA APS 220 Attachment B",
+    "type": "reporting",
+    "jurisdictions": [
+      "AU",
+      "UK",
+      "EU",
+      "INTL"
+    ],
+    "regulators": [
+      "Auditors",
+      "ASIC",
+      "APRA"
+    ],
+    "requirements": "Classification and measurement of financial instruments. Expected credit loss (ECL) model: three-stage approach. Stage 1 (12-month ECL), Stage 2 (lifetime ECL on SICR), Stage 3 (lifetime ECL on credit-impaired). Forward-looking macro scenarios. Discount rate selection. Model governance and validation. Quarterly Board reporting on ECL movements and staging.",
+    "penalty": "ASIC financial reporting enforcement; qualified audit opinion; continuous disclosure breach for ASX-listed entities; investor litigation.",
+    "effectiveDate": "2018-01-01",
+    "lastUpdated": "2023-01-01",
+    "status": "current",
+    "tags": [
+      "ifrs9",
+      "ecl",
+      "provisioning",
+      "credit-risk",
+      "accounting"
+    ]
+  },
+  {
+    "id": "REG-APRA-AI-2026",
+    "industryIds": [
+      "financial-services"
+    ],
+    "name": "APRA \u2014 AI Governance Minimum Expectations (April 2026)",
+    "shortName": "APRA AI Governance",
+    "ref": "APRA Letter to Industry, 30 April 2026",
+    "type": "model",
+    "jurisdictions": [
+      "AU"
+    ],
+    "regulators": [
+      "APRA"
+    ],
+    "requirements": "AI inventory and use case register maintained. Board-level AI literacy programme. AI lifecycle governance from design to decommission. Independent second-line AI/ML model review capability. Vendor concentration risk assessment for AI providers. Agentic workflow access controls. AI systems supporting critical operations must have credible human fallback processes. Human escalation thresholds mandatory for AI outputs affecting material decisions.",
+    "penalty": "APRA supervisory intensification; capital add-on for governance failures; conditions on authority.",
+    "effectiveDate": "2026-04-30",
+    "lastUpdated": "2026-04-30",
+    "status": "current",
+    "tags": [
+      "ai",
+      "model-risk",
+      "governance",
+      "apra",
+      "agentic"
+    ]
+  }
+]

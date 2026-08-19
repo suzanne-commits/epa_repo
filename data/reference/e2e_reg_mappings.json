@@ -1,0 +1,162 @@
+[
+  {
+    "id": "E2EMAP-L2A-FATF-AML",
+    "e2eId": "L2A",
+    "regulationId": "REG-FATF-AML",
+    "l2Id": "COL-CDD-001",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "CDD must be completed before any business relationship is established. This obligation triggers at step 3 of the Lead-to-Active flow \u2014 between needs assessment and account activation. Cannot proceed to account opening until CDD is approved.",
+    "sequenceNote": "Triggers at CDD step. Blocks progression to account opening if CDD is incomplete or escalated for EDD review."
+  },
+  {
+    "id": "E2EMAP-L2A-DDO",
+    "e2eId": "L2A",
+    "regulationId": "REG-DDO-AU",
+    "l2Id": "COL-OBD-002",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments"
+    ],
+    "obligation": "Product issued only to clients within the TMD. At the account opening step of Lead-to-Active, the TMD verification must be completed and documented before the account agreement is executed.",
+    "sequenceNote": "Triggers at account opening step. TMD check is a pre-condition to account agreement execution."
+  },
+  {
+    "id": "E2EMAP-L2A-GDPR",
+    "e2eId": "L2A",
+    "regulationId": "REG-GDPR",
+    "l2Id": "COL-OBD-004",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "Privacy notice provided and lawful basis documented at point of data collection \u2014 which occurs throughout the Lead-to-Active flow but is formalised at the onboarding documentation step.",
+    "sequenceNote": "Triggers at onboarding documentation step (final step). Privacy notice must precede data collection at earlier steps \u2014 a control design requirement that runs across the full E2E."
+  },
+  {
+    "id": "E2EMAP-A2D-FATF-AML",
+    "e2eId": "A2D",
+    "regulationId": "REG-FATF-AML",
+    "l2Id": "COL-CDD-001",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "eca"
+    ],
+    "obligation": "CDD completed before credit facility is established. Source of wealth verified for facilities above materiality threshold. EDD required for PEP borrowers or counterparties in high-risk jurisdictions. For DFI/ECA, sovereign counterparty CDD applies.",
+    "sequenceNote": "Triggers at step 1. CDD is a precondition to credit assessment. High-value or high-risk facilities require EDD sign-off before credit decisioning proceeds."
+  },
+  {
+    "id": "E2EMAP-A2D-IFRS9",
+    "e2eId": "A2D",
+    "regulationId": "REG-IFRS9",
+    "l2Id": "LEN-PFM-002",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl"
+    ],
+    "obligation": "Stage 1 ECL recognised at drawdown. 12-month ECL calculated using PD, LGD, and EAD at origination. Model governance documented. SICR assessment criteria defined at product level and applied from day one.",
+    "sequenceNote": "Triggers at drawdown (final step). ECL must be calculated and recognised on the day the credit facility is first drawn. Staging criteria apply from that date."
+  },
+  {
+    "id": "E2EMAP-A2D-CPS220",
+    "e2eId": "A2D",
+    "regulationId": "REG-APRA-CPS220",
+    "l2Id": "LEN-ORG-002",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl"
+    ],
+    "obligation": "Credit risk appetite applied at credit decisioning step. Delegated lending authorities documented and current. Large exposure limits checked before credit is approved. Three lines of defence accountability clear for the approval decision.",
+    "sequenceNote": "Triggers at credit decisioning step. Credit approval must operate within Board-approved risk appetite and delegated authority framework."
+  },
+  {
+    "id": "E2EMAP-P2P2-FATF-AML",
+    "e2eId": "P2P2",
+    "regulationId": "REG-FATF-AML",
+    "l2Id": "PAY-FRD-003",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "payments"
+    ],
+    "obligation": "TTR filed within 10 business days for cash transactions \u2265AUD $10,000. SMR filed within 24 hours of forming suspicion. IFTI filed for all international transfers regardless of amount. Obligations trigger at the fraud and financial crime screening step within Payment-to-Posted.",
+    "sequenceNote": "Triggers at fraud/AML screening step (step 2 of 3). TTR/SMR/IFTI reporting is a concurrent obligation \u2014 it does not block payment execution but must be completed within prescribed timeframes."
+  },
+  {
+    "id": "E2EMAP-P2P2-GDPR",
+    "e2eId": "P2P2",
+    "regulationId": "REG-GDPR",
+    "l2Id": "PAY-CLR-001",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "payments"
+    ],
+    "obligation": "Payment data processed under a documented lawful basis (contract performance). Cross-border transfer of payment data subject to GDPR transfer mechanism requirements. Beneficiary data in SWIFT messages subject to data minimisation obligations.",
+    "sequenceNote": "Triggers throughout the E2E but crystallises at clearing and settlement where payment data is transmitted to third-party clearing infrastructure and correspondent banks."
+  },
+  {
+    "id": "E2EMAP-L2A-FAR",
+    "e2eId": "L2A",
+    "regulationId": "REG-FAR-AU",
+    "l2Id": "COL-CDD-001",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "The Accountable Person for 'client onboarding and AML/CTF programme' is personally accountable for the CDD outcome in the Lead-to-Active E2E. FAR accountability maps must name this person. Where CDD failures are systemic, APRA/ASIC can take enforcement action against the individual, not just the entity.",
+    "sequenceNote": "FAR accountability applies to the E2E outcome \u2014 not just the CDD step. The Accountable Person must take reasonable steps across the full E2E to prevent conduct and AML failures."
+  },
+  {
+    "id": "E2EMAP-A2D-FAR",
+    "e2eId": "A2D",
+    "regulationId": "REG-FAR-AU",
+    "l2Id": "COL-CDD-001",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "eca"
+    ],
+    "obligation": "The Accountable Person for 'credit origination and underwriting' key function has personal FAR accountability for the Application-to-Drawdown E2E outcome. Responsible lending compliance is a key conduct obligation under this accountability \u2014 delegation to credit officers does not discharge personal liability.",
+    "sequenceNote": "FAR accountability attaches to the credit approval outcome. The Accountable Person must take reasonable steps to ensure the entity complies with NCCP Act responsible lending obligations throughout this E2E."
+  },
+  {
+    "id": "E2EMAP-P2P2-FAR",
+    "e2eId": "P2P2",
+    "regulationId": "REG-FAR-AU",
+    "l2Id": "PAY-FRD-003",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "payments"
+    ],
+    "obligation": "The Accountable Person for 'payments and transaction services' is personally accountable for the Payment-to-Posted E2E outcome including AUSTRAC TTR/SMR filing obligations. FAR requires this person to deal with APRA and ASIC openly \u2014 including on AML/CTF compliance matters.",
+    "sequenceNote": "FAR accountability attaches to the AML/CTF obligations triggered within Payment-to-Posted. The Accountable Person cannot delegate away personal accountability for systemic failures in suspicious matter reporting."
+  }
+]

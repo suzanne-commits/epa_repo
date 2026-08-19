@@ -1,0 +1,86 @@
+[
+  {
+    "id": "COL", "industryId": "financial-services",
+    "name": "Client Onboarding & Lifecycle", "shortName": "Client Onboarding",
+    "tier": "primary-value-chain", "color": "#0066CC",
+    "description": "Prospect to active client — lead generation through to relationship management and offboarding",
+    "archetypes": ["bank","nbl","insurer","wealth","payments","eca"],
+    "standards": [
+      {"framework":"BIAN","version":"v12","ref":"Customer Onboarding"},
+      {"framework":"APQC","version":"PCF Banking v7.4","ref":"4.2.1"}
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "PMP", "industryId": "financial-services",
+    "name": "Product Management & Pricing", "shortName": "Product Management",
+    "tier": "primary-value-chain", "color": "#276749",
+    "description": "Design, maintain, and price financial products across all segments",
+    "archetypes": ["bank","nbl","insurer","wealth","payments","eca"],
+    "standards": [
+      {"framework":"APQC","version":"PCF Banking v7.4","ref":"4.1.1"},
+      {"framework":"BIAN","version":"v12","ref":"Product Management"}
+    ],
+    "sortOrder": 2
+  },
+  {
+    "id": "LEN", "industryId": "financial-services",
+    "name": "Lending & Credit", "shortName": "Lending",
+    "tier": "primary-value-chain", "color": "#0A2540",
+    "description": "Credit origination, underwriting, portfolio management, and collections across all lending products",
+    "archetypes": ["bank","nbl","eca"],
+    "standards": [
+      {"framework":"APQC","version":"PCF Banking v7.4","ref":"4.3"},
+      {"framework":"BIAN","version":"v12","ref":"Credit Management"}
+    ],
+    "sortOrder": 3
+  },
+  {
+    "id": "PAY", "industryId": "financial-services",
+    "name": "Payments & Transaction Services", "shortName": "Payments",
+    "tier": "primary-value-chain", "color": "#553C9A",
+    "description": "Payment initiation, clearing, settlement, fraud detection, and disputes",
+    "archetypes": ["bank","payments"],
+    "standards": [
+      {"framework":"APQC","version":"PCF Banking v7.4","ref":"4.4"},
+      {"framework":"BIAN","version":"v12","ref":"Payment Execution"}
+    ],
+    "sortOrder": 4
+  },
+  {
+    "id": "RISK", "industryId": "financial-services",
+    "name": "Risk Management", "shortName": "Risk",
+    "tier": "enterprise-control", "color": "#163A5F",
+    "description": "Enterprise risk management across credit, market, operational, liquidity, climate, and model risk",
+    "archetypes": ["bank","nbl","insurer","wealth","payments","eca"],
+    "standards": [
+      {"framework":"COSO","version":"ERM 2017","ref":"Enterprise Risk Management"},
+      {"framework":"IIA","version":"Three Lines 2020","ref":"Second Line"}
+    ],
+    "sortOrder": 10
+  },
+  {
+    "id": "CFC", "industryId": "financial-services",
+    "name": "Compliance & Financial Crime", "shortName": "Compliance",
+    "tier": "enterprise-control", "color": "#1A1A2E",
+    "description": "AML/CTF, sanctions, conduct compliance, financial crime surveillance, and consumer protection",
+    "archetypes": ["bank","nbl","insurer","wealth","payments","eca"],
+    "standards": [
+      {"framework":"COSO","version":"SCCE 2020","ref":"Compliance Risk Management"},
+      {"framework":"IIA","version":"Three Lines 2020","ref":"Second Line"}
+    ],
+    "sortOrder": 11
+  },
+  {
+    "id": "DDT", "industryId": "financial-services",
+    "name": "Digital, Data & Technology", "shortName": "Technology",
+    "tier": "enterprise-control", "color": "#0F3460",
+    "description": "Technology platforms, data management, cybersecurity, AI governance, and digital resilience",
+    "archetypes": ["bank","nbl","insurer","wealth","payments","eca"],
+    "standards": [
+      {"framework":"TOGAF","version":"10","ref":"Technology Architecture"},
+      {"framework":"APQC","version":"PCF v7.4","ref":"7.0 Manage IT"}
+    ],
+    "sortOrder": 12
+  }
+]

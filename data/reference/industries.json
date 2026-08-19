@@ -1,0 +1,57 @@
+[
+  {
+    "id": "financial-services",
+    "name": "Financial Services",
+    "shortName": "FS",
+    "description": "Universal banks, non-bank lenders, insurers, wealth managers, payments firms, and export credit agencies",
+    "status": "active",
+    "archetypes": [
+      { "id": "bank",     "name": "Universal Bank" },
+      { "id": "nbl",      "name": "Non-Bank Lender" },
+      { "id": "insurer",  "name": "Insurer" },
+      { "id": "wealth",   "name": "Wealth / Asset Manager" },
+      { "id": "payments", "name": "Payments / EMI" },
+      { "id": "eca",      "name": "Export Credit / DFI" }
+    ]
+  },
+  {
+    "id": "cgm",
+    "name": "Commodity & Global Markets",
+    "shortName": "CGM",
+    "description": "Commodity trading, asset finance, structured finance, and global markets",
+    "status": "active",
+    "archetypes": [
+      { "id": "cgm-full", "name": "Integrated CGM" }
+    ]
+  },
+  {
+    "id": "telco",
+    "name": "Australian Integrated Carrier",
+    "shortName": "Telco",
+    "description": "Mobile network operators, integrated carriers, MVNOs",
+    "status": "active",
+    "archetypes": [
+      { "id": "mno",   "name": "Mobile Network Operator" },
+      { "id": "mvno",  "name": "MVNO" },
+      { "id": "infra", "name": "Infrastructure Only" }
+    ]
+  },
+  {
+    "id": "nbn",
+    "name": "nbn co",
+    "shortName": "nbn",
+    "description": "Wholesale-only Government Business Enterprise",
+    "status": "active",
+    "archetypes": [
+      { "id": "nbn-gbe", "name": "GBE Wholesale Carrier" }
+    ]
+  },
+  {
+    "id": "insurance",
+    "name": "Insurance",
+    "shortName": "INS",
+    "description": "General, life, and health insurers",
+    "status": "planned",
+    "archetypes": []
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "STD-BIAN-V12",
+    "name": "BIAN Business Architecture",
+    "shortName": "BIAN v12",
+    "version": "v12",
+    "publisher": "Banking Industry Architecture Network",
+    "url": "https://bian.org",
+    "description": "Service Domain decomposition for the banking industry. BIAN v12 maps banking capabilities to Service Domains — the primary reference used for domain structure in the Financial Services EPA.",
+    "industryIds": ["financial-services"],
+    "relevantDomains": ["COL", "LEN", "PAY", "RISK", "CFC", "DDT"]
+  },
+  {
+    "id": "STD-APQC-BANKING",
+    "name": "APQC PCF — Banking",
+    "shortName": "APQC PCF Banking",
+    "version": "v7.4",
+    "publisher": "APQC",
+    "url": "https://www.apqc.org/pcf",
+    "description": "Process Classification Framework for the banking industry. Used for L1 process group naming and benchmarking alignment across the Financial Services EPA.",
+    "industryIds": ["financial-services"],
+    "relevantDomains": ["COL", "LEN", "PAY", "RISK", "CFC"]
+  },
+  {
+    "id": "STD-APQC-TELCO",
+    "name": "APQC PCF — Telecommunications",
+    "shortName": "APQC PCF Telco v5.0.2",
+    "version": "v5.0.2",
+    "publisher": "APQC (co-developed with IBM)",
+    "url": "https://www.apqc.org/pcf",
+    "description": "Process Classification Framework for the telecommunications industry. Used for domain and process group naming in the Telco EPA.",
+    "industryIds": ["telco"],
+    "relevantDomains": ["MOB", "CSB", "ENT", "WHL", "NET", "REG"]
+  },
+  {
+    "id": "STD-ETOM-V25",
+    "name": "TM Forum eTOM — Business Process Framework",
+    "shortName": "eTOM GB921 v25.5",
+    "version": "v25.5",
+    "publisher": "TM Forum",
+    "url": "https://www.tmforum.org/resources/suite/gb921-business-process-framework-etom-suite/",
+    "description": "The canonical process reference model for telecommunications service providers. Three Level-0 domains: Operations (OPS), Strategy Infrastructure & Product (SIP), and Enterprise Management (EM). Adopted as ITU-T Recommendation M.3050.",
+    "industryIds": ["telco", "nbn"],
+    "relevantDomains": ["MOB", "CSB", "ENT", "WHL", "NET", "INF"]
+  },
+  {
+    "id": "STD-COSO-ERM",
+    "name": "COSO Enterprise Risk Management Framework",
+    "shortName": "COSO ERM 2017",
+    "version": "2017",
+    "publisher": "Committee of Sponsoring Organizations of the Treadway Commission",
+    "url": "https://www.coso.org/guidance-erm",
+    "description": "The foundational risk management framework applied across the EPA suite. Provides the basis for the How It Works narrative — process architecture as the prerequisite for contextually appropriate control design.",
+    "industryIds": ["financial-services", "cgm", "telco", "nbn"],
+    "relevantDomains": ["RISK", "CFC"]
+  },
+  {
+    "id": "STD-IIA-THREE-LINES",
+    "name": "IIA Three Lines Model",
+    "shortName": "IIA Three Lines 2020",
+    "version": "2020",
+    "publisher": "Institute of Internal Auditors",
+    "url": "https://www.theiia.org/three-lines-model",
+    "description": "Governs ownership and accountability structure across process groups. First line (process owners), second line (risk and compliance oversight), third line (internal audit).",
+    "industryIds": ["financial-services", "cgm", "telco"],
+    "relevantDomains": ["RISK", "CFC", "IAA"]
+  }
+]

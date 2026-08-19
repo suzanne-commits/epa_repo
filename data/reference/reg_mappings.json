@@ -1,0 +1,218 @@
+[
+  {
+    "id": "MAP-COL-CDD-001-FATF-AML",
+    "regulationId": "REG-FATF-AML",
+    "domainId": "COL",
+    "processGroupId": "COL-CDD",
+    "l2Id": "COL-CDD-001",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "CDD must be completed before a business relationship is established. Identity verified against primary documents. Electronic verification where permitted by AML/CTF Rules."
+  },
+  {
+    "id": "MAP-COL-CDD-002-FATF-AML",
+    "regulationId": "REG-FATF-AML",
+    "domainId": "COL",
+    "processGroupId": "COL-CDD",
+    "l2Id": "COL-CDD-002",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "UBO identification required for all legal entity clients. Controller identified where UBO above threshold cannot be determined. Complex structures fully mapped and documented."
+  },
+  {
+    "id": "MAP-COL-CDD-003-FATF-AML",
+    "regulationId": "REG-FATF-AML",
+    "domainId": "COL",
+    "processGroupId": "COL-CDD",
+    "l2Id": "COL-CDD-003",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "PEP screening against current consolidated lists at onboarding and on trigger events. Sanctions screening real-time against OFAC, UN, EU, DFAT, HMT lists. Match escalation process documented."
+  },
+  {
+    "id": "MAP-COL-CDD-004-FATF-AML",
+    "regulationId": "REG-FATF-AML",
+    "domainId": "COL",
+    "processGroupId": "COL-CDD",
+    "l2Id": "COL-CDD-004",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "EDD required for: PEPs and their associates; high-risk jurisdictions; complex structures; high-risk business relationships. Source of wealth and funds verified. Enhanced monitoring applied."
+  },
+  {
+    "id": "MAP-COL-CDD-005-FATF-AML",
+    "regulationId": "REG-FATF-AML",
+    "domainId": "COL",
+    "processGroupId": "COL-CDD",
+    "l2Id": "COL-CDD-005",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "Ongoing monitoring of business relationships. Transaction monitoring calibrated to client risk rating. Periodic CDD refresh \u2014 at least every 3 years for standard, annually for high-risk. Trigger-based EDD on material change."
+  },
+  {
+    "id": "MAP-COL-CDD-006-FATF-AML",
+    "regulationId": "REG-FATF-AML",
+    "domainId": "COL",
+    "processGroupId": "COL-CDD",
+    "l2Id": "COL-CDD-006",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "ML/TF risk rating assigned to each client at onboarding and reviewed periodically. Risk rating drives CDD intensity, transaction monitoring calibration, and approval delegation."
+  },
+  {
+    "id": "MAP-COL-OBD-001-MIFID2-POG",
+    "regulationId": "REG-MIFID2-POG",
+    "domainId": "COL",
+    "processGroupId": "COL-OBD",
+    "l2Id": "COL-OBD-001",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "wealth"
+    ],
+    "obligation": "Client needs assessment determines target market classification. Appropriateness test for execution-only investment services. Suitability assessment documented before personal recommendation. Outcome of assessment determines which products may be offered."
+  },
+  {
+    "id": "MAP-COL-OBD-002-DDO",
+    "regulationId": "REG-DDO-AU",
+    "domainId": "COL",
+    "processGroupId": "COL-OBD",
+    "l2Id": "COL-OBD-002",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments"
+    ],
+    "obligation": "Product issued only to clients within the TMD. Account opening checklist includes TMD verification. Significant dealings outside TMD identified at point of account opening and reported within 10 business days."
+  },
+  {
+    "id": "MAP-COL-OBD-004-GDPR",
+    "regulationId": "REG-GDPR",
+    "domainId": "COL",
+    "processGroupId": "COL-OBD",
+    "l2Id": "COL-OBD-004",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "Privacy notice provided at point of data collection. Lawful basis documented for each category of personal data processed. Data minimisation applied \u2014 only data necessary for the stated purpose collected at onboarding."
+  },
+  {
+    "id": "MAP-COL-OFF-002-FATF-AML",
+    "regulationId": "REG-FATF-AML",
+    "domainId": "COL",
+    "processGroupId": "COL-OFF",
+    "l2Id": "COL-OFF-002",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "AML/CTF records retained for 7 years from end of business relationship. Transaction records retained for 7 years. CDD records retrievable within 3 business days of regulator request. Destruction only after mandatory retention period expires."
+  },
+  {
+    "id": "MAP-COL-OFF-003-GDPR",
+    "regulationId": "REG-GDPR",
+    "domainId": "COL",
+    "processGroupId": "COL-OFF",
+    "l2Id": "COL-OFF-003",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "Personal data destroyed or anonymised once retention period expires. Destruction schedule documented and auditable. Subject access and erasure requests fulfilled within 30 days post-exit. Cross-border transfer restrictions apply during archival period."
+  },
+  {
+    "id": "MAP-COL-OBD-001-FAR",
+    "regulationId": "REG-FAR-AU",
+    "domainId": "COL",
+    "processGroupId": "COL-OBD",
+    "l2Id": "COL-OBD-001",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "The Accountable Person for 'client onboarding' key function is personally accountable for the CDD standards and conduct obligations applied during client needs assessment. FAR accountability maps must clearly identify this person. Delegation to front-line staff does not discharge personal FAR accountability.",
+    "notes": "FAR accountability statement must cover this L2 where it falls within the Accountable Person's prescribed responsibility."
+  },
+  {
+    "id": "MAP-RISK-ORM-001-FAR",
+    "regulationId": "REG-FAR-AU",
+    "domainId": "RISK",
+    "processGroupId": "RISK-ORM",
+    "l2Id": "RISK-ORM-001",
+    "industryId": "financial-services",
+    "archetypes": [
+      "bank",
+      "nbl",
+      "insurer",
+      "wealth",
+      "payments",
+      "eca"
+    ],
+    "obligation": "The Accountable Person for 'risk management framework' is personally accountable for the operational risk management programme including RCSA, KRI monitoring, and scenario analysis. FAR requires this person to take reasonable steps to prevent systematic risk management failures.",
+    "notes": "RCSA management is a core operational outcome of the 'risk management' key function under FAR Minister Rules Schedule 1."
+  }
+]

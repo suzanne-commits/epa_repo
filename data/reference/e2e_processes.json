@@ -1,0 +1,61 @@
+[
+  {
+    "id": "L2A",
+    "industryId": "financial-services",
+    "name": "Lead-to-Active",
+    "group": "S2 — Client Lifecycle",
+    "groupColor": "#0066CC",
+    "groupSortOrder": 2,
+    "objective": "Convert a prospect into an active client — from initial contact through needs assessment, KYC/AML verification, account opening, and first active service",
+    "criticality": "critical",
+    "criticalityReason": "AML/CFT obligations require CDD before any business relationship is established. DDO target market assessment required before product issue. Consumer Duty / best interests duty apply at point of sale. Failures at this E2E create simultaneous regulatory exposure across conduct, AML, and data obligations.",
+    "archetypes": ["bank","nbl","insurer","wealth","payments","eca"],
+    "farAccountability": "Chief Risk Officer (conduct obligations); Chief Compliance Officer (AML/CTF programme); Head of Retail / Head of Institutional (business outcome)",
+    "steps": [
+      {"processGroupId":"COL-PLM","l2Ids":["COL-PLM-003","COL-PLM-004"]},
+      {"processGroupId":"COL-OBD","l2Ids":["COL-OBD-001"]},
+      {"processGroupId":"COL-CDD","l2Ids":["COL-CDD-001","COL-CDD-002","COL-CDD-003","COL-CDD-004","COL-CDD-006"]},
+      {"processGroupId":"COL-OBD","l2Ids":["COL-OBD-002","COL-OBD-003","COL-OBD-004"]}
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "A2D",
+    "industryId": "financial-services",
+    "name": "Application-to-Drawdown",
+    "group": "S3 — Credit & Lending",
+    "groupColor": "#0A2540",
+    "groupSortOrder": 3,
+    "objective": "Assess, approve, document, and fund a credit facility — from initial application through affordability assessment, credit decisioning, security documentation, and first drawdown",
+    "criticality": "critical",
+    "criticalityReason": "Responsible lending obligations (NCCP Act / FCA MCOB) apply at assessment. DDO target market check required before issue. Basel III credit risk weights assigned at origination. IFRS 9 Stage 1 ECL recognised at drawdown. AML EDD required for high-value facilities. Failures create simultaneous exposure across conduct, prudential, and AML obligations.",
+    "archetypes": ["bank","nbl","eca"],
+    "farAccountability": "Chief Risk Officer (credit risk framework); Chief Compliance Officer (responsible lending); Chief Credit Officer (underwriting standards)",
+    "steps": [
+      {"processGroupId":"COL-CDD","l2Ids":["COL-CDD-001","COL-CDD-002","COL-CDD-006"]},
+      {"processGroupId":"LEN-ORG","l2Ids":["LEN-ORG-001","LEN-ORG-002","LEN-ORG-003"]},
+      {"processGroupId":"LEN-UND","l2Ids":["LEN-UND-001","LEN-UND-002"]},
+      {"processGroupId":"LEN-PFM","l2Ids":["LEN-PFM-001","LEN-PFM-002"]}
+    ],
+    "sortOrder": 1
+  },
+  {
+    "id": "P2P2",
+    "industryId": "financial-services",
+    "name": "Payment-to-Posted",
+    "group": "S4 — Payments & Settlement",
+    "groupColor": "#553C9A",
+    "groupSortOrder": 4,
+    "objective": "Execute, clear, settle, and post a customer payment instruction — from initiation through SCA, fraud screening, interbank clearing, and account posting",
+    "criticality": "critical",
+    "criticalityReason": "PSD2/PSD3 SCA requirements apply at initiation. FATF Recommendation 16 wire transfer information requirements apply to all transfers ≥USD $1,000. AUSTRAC TTR/SMR obligations triggered by threshold transactions and suspicious activity. NPP 24/7 availability and 60-second settlement obligations. Card scheme fraud rate thresholds. A single control failure can simultaneously breach conduct, AML, and scheme rules.",
+    "archetypes": ["bank","payments"],
+    "farAccountability": "Chief Compliance Officer (AML/CTF obligations); Chief Operating Officer (settlement and availability obligations)",
+    "steps": [
+      {"processGroupId":"PAY-INI","l2Ids":["PAY-INI-001","PAY-INI-002","PAY-INI-003"]},
+      {"processGroupId":"PAY-FRD","l2Ids":["PAY-FRD-001","PAY-FRD-002","PAY-FRD-003"]},
+      {"processGroupId":"PAY-CLR","l2Ids":["PAY-CLR-001","PAY-CLR-002","PAY-CLR-003"]}
+    ],
+    "sortOrder": 1
+  }
+]

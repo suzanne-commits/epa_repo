@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { font-family: 'Inter', system-ui, sans-serif; }
+  body { @apply bg-slate-50 text-slate-900 antialiased; }
+}
+
+@layer components {
+  .card { @apply bg-white rounded-lg border border-slate-200 shadow-sm; }
+  .card-header { @apply px-5 py-4 border-b border-slate-100; }
+  .badge { @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold; }
+  .btn-primary { @apply inline-flex items-center gap-2 px-4 py-2 rounded-md bg-navy text-white text-sm font-medium hover:bg-navy-dark transition-colors; }
+  .btn-secondary { @apply inline-flex items-center gap-2 px-4 py-2 rounded-md border border-slate-200 text-slate-700 text-sm font-medium hover:bg-slate-50 transition-colors; }
+  .filter-btn { @apply px-3 py-1.5 rounded text-xs font-semibold border transition-colors cursor-pointer; }
+  .filter-btn-active { @apply bg-navy-DEFAULT text-white border-navy-DEFAULT; }
+  .filter-btn-inactive { @apply bg-white text-slate-500 border-slate-200 hover:border-slate-400; }
+}

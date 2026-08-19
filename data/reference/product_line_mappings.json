@@ -1,0 +1,12 @@
+[
+  { "id": "PLMAP-MORT-DOM-COL", "productLineId": "FS-PL-MORTGAGES", "type": "domain", "entityId": "COL", "role": "primary", "rationale": "All mortgage customers onboarded through full client lifecycle including KYC/AML and responsible lending assessment" },
+  { "id": "PLMAP-MORT-DOM-LEN", "productLineId": "FS-PL-MORTGAGES", "type": "domain", "entityId": "LEN", "role": "primary", "rationale": "Core domain — origination, underwriting, portfolio management, IFRS 9 provisioning, hardship" },
+  { "id": "PLMAP-MORT-DOM-RISK", "productLineId": "FS-PL-MORTGAGES", "type": "domain", "entityId": "RISK", "role": "primary", "rationale": "Credit risk capital (APS 112), LTV monitoring, IRRBB for fixed-rate book, ECL" },
+  { "id": "PLMAP-MORT-DOM-CFC", "productLineId": "FS-PL-MORTGAGES", "type": "domain", "entityId": "CFC", "role": "primary", "rationale": "Responsible lending compliance, NCCP, hardship obligations, broker conduct oversight" },
+  { "id": "PLMAP-MORT-E2E-A2D", "productLineId": "FS-PL-MORTGAGES", "type": "e2e", "entityId": "A2D", "rationale": "Primary E2E — every mortgage delivered through Application-to-Drawdown" },
+  { "id": "PLMAP-MORT-E2E-L2A", "productLineId": "FS-PL-MORTGAGES", "type": "e2e", "entityId": "L2A", "rationale": "Lead-to-Active — client onboarding and CDD" },
+  { "id": "PLMAP-MORT-REG-NCCP", "productLineId": "FS-PL-MORTGAGES", "type": "regulation", "entityId": "REG-FATF-AML", "acuity": "high", "rationale": "AML/CDD obligations apply at origination — EDD for high-value facilities" },
+  { "id": "PLMAP-MORT-REG-IFRS9", "productLineId": "FS-PL-MORTGAGES", "type": "regulation", "entityId": "REG-IFRS9", "acuity": "high", "rationale": "Stage 1 ECL recognised at drawdown; SICR monitoring ongoing" },
+  { "id": "PLMAP-PAY-DOM-PAY", "productLineId": "FS-PL-PAYMENTS", "type": "domain", "entityId": "PAY", "role": "primary", "rationale": "Core domain — all payment initiation, clearing, settlement, fraud, disputes" },
+  { "id": "PLMAP-PAY-E2E-P2P2", "productLineId": "FS-PL-PAYMENTS", "type": "e2e", "entityId": "P2P2", "rationale": "Primary E2E — Payment-to-Posted" }
+]
